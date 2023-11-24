@@ -1,0 +1,567 @@
+h1 {
+    color: #34547a;
+    font-size: 48px;
+}
+p {
+    color: #000000;
+    font-size: 18pxs;
+}
+header {
+     width: 100%;
+     background: #EEEFF1;
+     position: fixed;
+     left: 0;
+     top: 0;
+     padding-bottom: 15px;
+     z-index: 2;
+}
+ .header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+ }
+body {
+    width: 100%;
+    background: #EEEFF1;
+}
+.header_logo {
+    font-family: revalia;
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: 57px;
+    position: relative;
+}
+.header_logo:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -17px;
+    width: 12px;
+    height: 12px;
+    border-radius: 5px;
+    background-color: #34547A;
+    animation: updown 1.5s infinite;
+    transition: 500ms;
+}
+.header_logo:hover::before {
+    animation: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    z-index: -1;
+}
+.header_menu {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    cursor: pointer;
+    margin-top: 79px;
+}
+.header_menu a {
+    padding-left: 42px;
+}
+.intro {
+    padding-top: 257px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.intro_left {
+    width: 357px;
+    padding-top: 50px;
+}
+.intro_right {
+    max-width: 541px;
+    margin-left: 130px;
+    margin-bottom: 146px;
+}
+.intro_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+.intro_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+.intro_button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    width: 225px;
+    height: 65px;
+    background: #34547A;
+    border: 0;
+    margin-top: 60px;
+    transition: 500ms;
+}
+.intro_button:hover {
+    border-radius: 50px;
+}
+.about {
+    background: white;
+}
+.wrapper {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.about_wrapper {
+    display: flex;
+    justify-content: center;
+}
+.about_block {
+    width: 540px;
+    text-align: center;
+}
+.about_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    margin-top: 119px;
+    margin-bottom: 50px;
+}
+.about_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 100px;
+}
+.projects {
+    background: #34547A;
+}
+.projects_wrapper {
+    display: flex;
+    justify-content: center;
+}
+.projects_block {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    margin-left: 140px;
+}
+.project_img {
+    width: 141px;
+    height: 50px;
+}
+.skills_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills_img {
+    width: 555px;
+    height: 450px;
+    margin-top: 102px;
+    margin-bottom: 101px;
+}
+.skills_left {
+    width: 445px;
+    margin-right: 150px;
+}
+.skills_title {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+.skill {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.skill_1 {
+    position: relative;
+}
+.skill_1::before {
+    content:" ";
+    width: 445px;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.skill_1::after {
+    content:" ";
+    width: 330px;
+    height: 4px;
+    background-color: #34547A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.skills {
+    background-color: white;
+}
+.skill {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+
+    padding-bottom: 24px;
+}
+.skill_2 {
+    position: relative;
+}
+.skill_2::before {
+    content:" ";
+    width: 445px;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.skill_2::after {
+    content:" ";
+    width: 200px;
+    height: 4px;
+    background-color: #34547A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.skills {
+    background-color: white;
+}
+.skill {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 24px;
+}
+.skill_3 {
+    position: relative;
+}
+.skill_3::before {
+    content:" ";
+    width: 445px;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.skill_3::after {
+    content:" ";
+    width: 400px;
+    height: 4px;
+    background-color: #34547A;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.skills {
+    background-color: white;
+}
+.skills {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+.skills_text {
+    font-size: 20px;
+}
+.skills_block {
+    width: 400px;
+    margin-right: 150px;
+}
+.skill {
+    margin-top: 5px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.process_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.process_block {
+    width: 540px;
+    text-align: center;
+}
+.process_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.process_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    margin-bottom: 57px;
+}
+.process_video {
+    width: 1100px;
+    margin-bottom: 100px;
+}
+.send_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.send_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.send_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+    width: 540px;
+    margin-bottom: 65px;
+}
+.send_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formstyle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5f5f5f;
+    background-color: white;
+    border: 0;
+    padding: 17px 20px;
+}
+.form1 {
+    width: 255px;
+    height: 50px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.form2 {
+    width: 255px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.form3 {
+    width: 540px;
+    height: 175px;
+    resize: none;
+    margin-bottom: 50px;
+}
+.send_button {
+    width: 190px;
+    height: 55px;
+    border: 0;
+    background-color: #34547a;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #ffffff;
+    padding: 20px 19px;
+    margin-bottom: 29px;
+    cursor: pointer;
+    transition: 500ms;
+}
+.send_button:hover {
+    border-radius: 50px;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+}
+.gallery_str {
+    display: flex;
+    width: 100%;
+}
+.gallery_amg {
+    width: 100%;
+}
+.lightzoom {
+    width: 25%;
+}
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 3;
+}
+.modal_content {
+    padding: 20px;
+    margin: 9% auto;
+    background-color: #EEEFF1;
+    width: 55%;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+.close {
+    font-family: Revalia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #34547a;
+    float: right;
+    cursor: pointer;
+}
+.modal_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.modal_button {
+    cursor: pointer;
+    width: 190px;
+    height: 55px;
+    border: 0;
+    background-color: #34547a;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #ffffff;
+    padding: 20px 19px;
+    margin-bottom: 40px;
+    transition: 500ms;
+}
+.modal_button:hover {
+    border-radius: 50px;
+}
+@keyframes updown {
+    0% {
+         top: 0;
+    }
+    50% {
+         top: 50px;
+    }
+    100% {
+         top: 0;
+    }
+} 
+footer {
+    background-color: #34547A;
+}
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+.footer_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.footer_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.footer_img {
+    width: 43.75px;
+    height: 40px;
+    margin-top: 56px;
+    margin-bottom: 55px;
+    margin-left: 22px;
+}
+.menu_item {
+    text-decoration: none;
+    color: inherit;
+}
+.menu_about {
+    text-decoration: none;
+    color: inherit;
+}
+.menu_skills {
+    text-decoration: none;
+    color: inherit;
+}
+.menu_process{
+    text-decoration: none;
+    color: inherit;
+}
+.menu_send {
+    text-decoration: none;
+    color: inherit;
+}
